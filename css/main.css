@@ -74,13 +74,80 @@ button{
 }
 #about{
 
-    width: 700px;
-    background-color:white;
-    height: 500px;
+    width: 1215px;
+    background-color:rgba(0,0,255,0.1);
+    height: 1500px;
     color: purple;
     margin-bottom: 100px;
-    margin: 0 auto;
+   
 }
+#products{
+
+    width: 100%;
+    background-color:blue;
+    height: 1500px;
+   
+}
+h1{
+  text-align: center;
+  margin-top:20px;
+}
+.suu{
+  width: 800px;
+  height: 200px;
+  padding: 15px;
+  margin:0 auto;
+
+}
+.judith{
+  width: 1180px;
+  height: 200px;
+  margin-bottom: 280px;
+  padding: 15px;
+  margin:0 auto;
+
+}
+.fatma{
+  margin-top: 50px;
+  margin-left: 300px;
+  width: 200px;
+  font-size: 20px;
+  float:left;
+  padding:10px;
+}
+.rehema{
+  margin-bottom: 50px;
+  margin-top:30px;
+  margin-right: 300px;
+  width: 200px;
+  font-size: 20px;
+  float:right;
+  padding:10px;
+}
+.citizen{
+  width: 100%;
+  height: 500px;
+  background-color: rgba(0,0,255,0.1);;
+  margin-top:250px;
+}
+/*.eve{
+  text-align: justify;
+  display: block;
+  margin: 0 auto;
+  
+}*/
+/*.june{
+  background-color: pink;
+  width:100px;
+  height: 100px;
+  float: :left;
+}
+.july{
+  background-color: black;
+  width:100px;
+  height: 100px;
+  float: left;
+}*/
 img{
     float: left;
 }
@@ -93,7 +160,7 @@ img{
     color: black;
     margin-top: 200px;
     margin: 0 auto;
-   /* margin-top: 50px;*/
+    margin-top: 50px;
     width: 500px;
 }
 .copy{
