@@ -74,18 +74,11 @@ button{
 }
 #about{
 
-    width: 1215px;
+    width: 100%;
     background-color:rgba(0,0,255,0.1);
-    height: 1500px;
+    height: 1200px;
     color: purple;
     margin-bottom: 100px;
-   
-}
-#products{
-
-    width: 100%;
-    background-color:blue;
-    height: 1500px;
    
 }
 h1{
@@ -130,39 +123,88 @@ h1{
   background-color: rgba(0,0,255,0.1);;
   margin-top:250px;
 }
-/*.eve{
-  text-align: justify;
-  display: block;
-  margin: 0 auto;
-  
-}*/
-/*.june{
-  background-color: pink;
-  width:100px;
-  height: 100px;
-  float: :left;
-}
-.july{
-  background-color: black;
-  width:100px;
-  height: 100px;
-  float: left;
-}*/
 img{
     float: left;
 }
-
+.eve{
+  text-align: 'justify';
+  width:[width of img];
+}
+.kanini img{
+  border-radius: 2px;
+}
 #products{
-
-    
     background-color:#fff;
-    height: 500px;
+    height: 900px;
     color: black;
     margin-top: 200px;
     margin: 0 auto;
     margin-top: 50px;
-    width: 500px;
+    width: 100%;
 }
+.image {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.ndanu:hover .image {
+  opacity: 0.3;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+   background-color: #008CBA;
+}
+.ndanu:hover .middle {
+  opacity: 1;
+}
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .copy{
   color:#fff;
   height: 10px;
@@ -200,6 +242,21 @@ img{
   line-height: 25px;
   text-align: center;
  }
+ .fa-youtube{
+  color:black;
+  font-size: 40px;
+  margin-left: 50px;
+  width: 20px;
+  height:20px;
+  /*border:2px solid #f05f40;*/
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  padding-top:15px;
+  border-radius: 60%;
+  line-height: 25px;
+  text-align: center;
+ }
  .fa-instagram{
   color:black;
   font-size: 40px;
@@ -216,22 +273,7 @@ img{
   text-align: center;
  
  }
- .fa-link{
-  color:black;
-  font-size: 40px;
-  margin-left: 50px;
-  width: 20px;
-  height:20px;
- /* border:2px solid #f05f40;*/
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 10px;
-  padding-top:15px;
-  /*border-radius: 60%;*/
-  line-height: 25px;
-  text-align: center;
  
- }
  
  hr{
   margin:0 auto;
