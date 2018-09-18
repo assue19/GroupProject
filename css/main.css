@@ -166,11 +166,54 @@ img{
   opacity: 1;
 }
 .text {
-  background-color: #4CAF50;
-  color: white;
+  background-color: orange;
+  color: black;
   font-size: 16px;
   padding: 16px 32px;
 }
+
+/*wangila*/
+.wangila:hover .image{
+   opacity: 0.3;
+}
+.wangila:hover .middle{
+  opacity: 1;
+
+}
+.lodipo:hover .image{
+   opacity: 0.3;
+}
+.lodipo:hover .middle{
+  opacity: 1;
+
+}
+.jamal:hover .image{
+   opacity: 0.3;
+}
+.jamal:hover .middle{
+  opacity: 1;
+
+}
+.mine:hover .image{
+   opacity: 0.3;
+}
+.mine:hover .middle{
+  opacity: 1;
+
+}
+.njiwa:hover .image{
+   opacity: 0.3;
+}
+.njiwa:hover .middle{
+  opacity: 1;
+
+}
+
+
+
+
+
+
 
 
 
@@ -288,6 +331,7 @@ img{
  footer{
   background-color: tomato;
   min-height:220px;
+  margin-bottom: 0px;
  }
  .copy{
   text-align: center;
