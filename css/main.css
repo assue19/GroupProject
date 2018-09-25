@@ -5,12 +5,18 @@ header{
     height:100vh;
     background-repeat: no-repeat;
 }
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
 .judy{
     width: 50px;
     height:50px;
     float: left;
     margin:auto;
 }
+
 h1{
     font-size: 20px;
     font-weight: 5px;
@@ -41,6 +47,13 @@ h1{
 a{
     text-decoration: none;
 }
+h4{
+  top:-0;
+  left: 0;
+  position:relative;
+  text-transform: uppercase;
+  color: white;
+}
 button{
     /*border-radius: 50px;
     background-color: orange;
@@ -70,6 +83,7 @@ button{
   text-align: center;
   font-size: 1em;
   color: #fff;
+  margin-top:-18px;
   
 }
 #about{
