@@ -67,7 +67,7 @@ h1{
 }
 .nav a:hover {
     background-color: #ddd;
-    color: black;
+    color: white;
 }
 a{
     text-decoration: none;
@@ -87,9 +87,9 @@ button{
     line-height: 0.9em !important;
     padding-left: 3em !important;
     text-align: center;*/
-    background-color:#f05f40;
+    background-color:#c4c4c4;
     border: none;
-    color: white;
+    color: #fff;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -112,13 +112,18 @@ button{
   margin-top:-18px;
   
 }
+.dan{
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+}
 #about{
 
     width: 100%;
     background-color:rgba(0,0,255,0.1);
     height: 1200px;
     color: purple;
-    margin-bottom: 100px;
+  /*  margin-bottom: 100px;*/
    
 }
 h1{
@@ -127,6 +132,8 @@ h1{
 }
 .suu{
  /* width: 800px;*/
+ width: 1000PX;
+ padding: 20px;
   height: 200px;
   padding: 15px;
   margin:0 auto;
